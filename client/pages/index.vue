@@ -1,65 +1,40 @@
 <template>
   <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        client
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+    <user-header></user-header>
+      <div class="row main-body">
+        <div class="col-sm">
+          <information></information>
+          <album element="фото" albumType="Фотоальбомы" img1="wow1.jpg" img2="wow2.jpg" img3="wow4.jpeg" img4="wow4.jpeg" countElement="88"></album>
+          <album element="видео" albumType="Видеоальбомы" img1="wow4.jpeg" img2="wow1.jpg" img3="wow2.jpg" img4="wow2.jpg" countElement="254"></album>
+          <friends></friends>
+        </div>
+        <div class="col-sm">
+          Одна из трёх колонок
+        </div>
+        <div class="col-sm">
+          Одна из трёх колонок
+        </div>
       </div>
-    </div>
   </section>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import UserHeader from '~/components/UserHeader.vue'
+import Information from '~/components/Information.vue'
+import Album from '~/components/Album.vue'
+import Friends from '~/components/Friends.vue'
 
 export default {
   components: {
-    AppLogo
+      UserHeader,
+      Information,
+      Album,
+      Friends
   }
 }
 </script>
 
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
+<style lang="scss" scoped>
+  @import '~assets/scss/elements/page.scss';
 </style>
 

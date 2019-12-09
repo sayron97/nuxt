@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="Group_2458" data-name="Group 2458" transform="translate(-13 -483)">
+    <rect id="Rectangle_1925" data-name="Rectangle 1925" width="45" height="45" rx="4" transform="translate(13 483)" fill="#f2315d" opacity="0"/>
+    <g id="PIKTOGRAM-60" transform="translate(22.857 494.712)">
+      <path id="Path_3166" data-name="Path 3166" d="M32.736,24.011v4.551a3.132,3.132,0,0,1-3.158,3.158H11.465A3.055,3.055,0,0,1,8.4,28.562v-15.6A3.113,3.113,0,0,1,11.465,9.8H29.578a3.132,3.132,0,0,1,3.158,3.158v2.229" transform="translate(-8.4 -9.8)" fill="none" stroke="#939292" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_3167" data-name="Path 3167" d="M33.575,24.623H24.658A1.863,1.863,0,0,1,22.8,22.766V20.258A1.863,1.863,0,0,1,24.658,18.4h8.917a1.863,1.863,0,0,1,1.858,1.858v2.508A1.863,1.863,0,0,1,33.575,24.623Z" transform="translate(-9.425 -10.412)" fill="none" stroke="#939292" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <ellipse id="Ellipse_336" data-name="Ellipse 336" cx="0.929" cy="0.929" rx="0.929" ry="0.929" transform="translate(15.14 10.031)" fill="#939292"/>
+    </g>
+  </g>
+</svg>

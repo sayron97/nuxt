@@ -1,0 +1,103 @@
+.bg-wrapper {
+  width: 100%;
+  height: 300px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+
+  .user-header-back{
+    filter: saturate(10px) grayscale(30%);
+  }
+
+  .button_icon{
+    height: 20px;
+    width: 20px;
+  }
+  .download {
+    background-color: #080001;
+    border-radius: 4px;
+    border: 6px solid #080001;
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.6;
+    position: relative;
+    top: 10px;
+    left: 670px;
+  }
+  .download:before {
+    background: url("/PIKTOGRAM-62.svg") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    height: 13px;
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+    width: 13px;
+  }
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  img.main_user_image {
+    top: 130px;
+    left: 70px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 8px solid #ffffff;
+  }
+
+  img {
+    object-fit: cover;
+  }
+
+  .name-block {
+    color: #ffffff;
+    position: relative;
+    top: 115px;
+      .name {
+        font-size: 30px;
+      }
+      .status {
+        font-size: 12px;
+      }
+  }
+
+  .nav {
+    margin-top: 150px;
+    .nav-item {
+      position: relative;
+      color: #ffffff;
+      .main-navbar-image {
+        position: absolute;
+        height: 25px;
+        width: auto;
+        top: 15px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .dots{
+        @extend .main-navbar-image;
+        height: 10px;
+      }
+
+      .main-navbar-number {
+        position: absolute;
+        top: 15px;
+        left: 50%;
+        font-size: 30px;
+        transform: translate(-50%, -50%)
+      }
+      .nav-link {
+        margin-top: 25px;
+        color: #ffffff;
+      }
+    }
+  }
+}

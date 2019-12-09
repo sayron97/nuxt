@@ -1,0 +1,73 @@
+.main{
+  margin-top: 10px;
+  background-color: #ffffff;
+  position: relative;
+}
+hr {
+  border: none; /* Убираем границу */
+  background-color: #f3f3f3; /* Цвет линии */
+  color: #f3f3f3; /* Цвет линии для IE6-7 */
+  height: 2px; /* Толщина линии */
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+
+.link-form{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+.link{
+  margin-top: 20px;
+  color: #000000;
+  font-size: 13px;
+}
+
+.img-block{
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.img-block-bottom{
+  @extend .img-block;
+  margin-top: 10px;
+  height: 110px;
+  &:hover {
+    opacity: .6;
+  }
+}
+
+.black-background{
+  background-color: #000000;
+  position: relative;
+}
+
+.more-photo{
+  position: absolute;
+  color: #FFFFFF;
+  top: 80px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #000000;
+  opacity: .6;
+}
+
+.first{
+  margin-left: 15px;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.last{
+  margin-left: 0;
+  margin-right: 15px;
+  padding-left: 0;
+}
+

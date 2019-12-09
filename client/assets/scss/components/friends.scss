@@ -1,0 +1,60 @@
+.main{
+  margin-top: 10px;
+  background-color: #ffffff;
+  position: relative;
+}
+hr {
+  border: none; /* Убираем границу */
+  background-color: #f3f3f3; /* Цвет линии */
+  color: #f3f3f3; /* Цвет линии для IE6-7 */
+  height: 2px; /* Толщина линии */
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.link-form{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+.link{
+  margin-top: 20px;
+  color: #000000;
+  font-size: 13px;
+}
+
+.friend-img{
+  width: 100px;
+  height: 100px;
+}
+
+.friend-name{
+  color: #000000;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.friend-form{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.col{
+  text-align: center;
+}
+
+.first{
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.last{
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.middle{
+  padding: 0;
+}
